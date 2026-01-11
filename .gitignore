@@ -1,0 +1,44 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+artifacts/
+cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Hardhat
+hardhat.config.js.swp
+typechain/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+.mocha
+test-results.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+deployment.json
+.cache/

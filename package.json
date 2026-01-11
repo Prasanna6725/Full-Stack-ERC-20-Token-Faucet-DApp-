@@ -1,0 +1,28 @@
+{
+  "name": "full-stack-erc20-token-faucet",
+  "version": "1.0.0",
+  "description": "Complete Web3 DApp with ERC-20 Token and Rate-Limited Faucet",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "verify": "hardhat verify",
+    "hardhat": "hardhat"
+  },
+  "keywords": ["ethereum", "erc20", "faucet", "web3", "dapp"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.10.0"
+  }
+}
